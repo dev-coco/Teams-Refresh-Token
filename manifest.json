@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Teams Refresh Token",
+  "version": "1.0.1",
+  "description": "保存 Teams 的 Token",
+  "author": "Raz1ner",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "cookies"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://script.google.com/*",
+    "https://teams.live.com/*"
+  ]
+}
