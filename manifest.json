@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Teams Refresh Token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "保存 Teams 的 Token",
   "author": "Raz1ner",
   "action": {
